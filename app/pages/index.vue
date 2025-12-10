@@ -1,8 +1,8 @@
 <!-- inget tambahin og:title dan semuanya -->
 <script lang="ts" setup>
 useSeoMeta({
-  title: 'Masia Trade SDN | Where Global Trading Meets Strategic Excellence.',
-  description: 'Masia Trade SDN menyediakan solusi trading dan manajemen advisory yang dirancang untuk meningkatkan pertumbuhan, mempercepat kinerja, dan membangun nilai jangka panjang secara berkelanjutan di pasar global.'
+  title: 'Masia Trade SDN | Trade, Strategy, Partnership, Elevated',
+  description: 'Masia Trade SDN We help businesses move smarter—not just further. Connecting opportunities, enhancing trading performance, and delivering long-term strategic clarity'
 })
 </script>
 
