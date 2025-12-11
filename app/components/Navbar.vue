@@ -31,7 +31,7 @@
       </ul>
 
       <button
-        class="md:hidden relative w-8 h-8 flex flex-col justify-center items-center group"
+        class="md:hidden relative w-8 h-8 flex flex-col justify-center items-center group cursor-pointer"
         @click="menuOpen = !menuOpen"
       >
         <span

@@ -70,16 +70,16 @@
         <button
           class="px-7 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl
                  font-medium shadow-[0_8px_30px_-4px_rgba(59,130,246,0.3)]
-                 transition-all duration-300 active:scale-[0.98]"
-          @click="$emit('scrollTo', 'about')"
+                 transition-all duration-300 active:scale-[0.98] cursor-pointer"
+          @click="scrollTo('about')"
         >
           Learn More
         </button>
 
         <button
           class="px-7 py-3 border border-white/40 text-white rounded-xl font-medium
-                 hover:bg-white/10 transition-all duration-200"
-          @click="$emit('scrollTo', 'contact')"
+                 hover:bg-white/10 transition-all duration-200 cursor-pointer"
+          @click="scrollTo('contact')"
         >
           Contact Us
         </button>
@@ -89,5 +89,10 @@
 </template>
 
 <script setup>
-// No script needed
+const scrollTo = (id) => {
+  const el = document.getElementById(id)
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+}
 </script>

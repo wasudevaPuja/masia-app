@@ -84,7 +84,7 @@
           <button
             type="submit"
             :disabled="loading"
-            class="w-full px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl font-medium shadow-md transition flex justify-center items-center gap-2"
+            class="w-full px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl font-medium shadow-md transition flex justify-center items-center gap-2 cursor-pointer"
           >
             <span
               v-if="loading"
@@ -143,7 +143,7 @@ const submitForm = async () => {
     } else {
       throw new Error('Form submission failed')
     }
-  } catch (err) {
+  } catch {
     loading.value = false
 
     Swal.fire({
