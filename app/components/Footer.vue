@@ -18,7 +18,12 @@
 
         <p class="mt-4 text-sm">
           <span class="text-white font-medium">Email:</span>
-          finance@masiaglobal.asia
+          <a
+            href="mailto:finance@masiaglobal.asia"
+            class="text-gray-300 hover:text-blue-300 transition underline underline-offset-2"
+          >
+            finance@masiaglobal.asia
+          </a>
         </p>
       </div>
 

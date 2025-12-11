@@ -3,19 +3,38 @@
     id="hero"
     class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0B1E35]"
   >
-    <div class="absolute inset-0 bg-gradient-to-b from-[#0B1E35] to-[#071629] opacity-90" />
-
+    <!-- BASE GRADIENT (lebih kuat dan kontras) -->
     <div
-      class="absolute inset-0 bg-[url('/img/76811.jpg')] bg-center bg-cover opacity-[0.22]"
-      style="
-    filter: brightness(0.55) saturate(0.35) hue-rotate(190deg) contrast(1.15);
-    mix-blend-mode: screen;
-  "
+      class="absolute inset-0
+         bg-[linear-gradient(140deg,#071629_0%,#0B1E35_40%,#0E2348_70%,#103A70_100%)]"
     />
 
+    <!-- STRONG CENTER GLOW (lebih jelas, tidak terlalu blur) -->
     <div
-      class="absolute top-1/3 left-1/2 -translate-x-1/2 w-[700px] h-[700px]
-         bg-blue-400/25 blur-[160px] opacity-40"
+      class="absolute top-[35%] left-1/2 -translate-x-1/2
+         w-[900px] h-[900px]
+         bg-[radial-gradient(circle,rgba(72,139,255,0.45),rgba(72,139,255,0.05),transparent)]
+         blur-[90px] opacity-70 pointer-events-none"
+    />
+
+    <!-- BOTTOM ELECTRIC-BLUE GRADIENT -->
+    <div
+      class="absolute bottom-[-120px] left-1/2 -translate-x-1/2
+         w-[1400px] h-[600px]
+         bg-[radial-gradient(circle_at_bottom,rgba(0,119,255,0.45),transparent_70%)]
+         blur-[160px] opacity-80"
+    />
+
+    <!-- DARK VIGNETTE (supaya tepi gelap, tengah terang) -->
+    <div
+      class="absolute inset-0
+         bg-[radial-gradient(circle,transparent_55%,rgba(0,0,0,0.55)_100%)]"
+    />
+
+    <!-- NOISE TEXTURE -->
+    <div
+      class="absolute inset-0 opacity-[0.07] pointer-events-none"
+      style="background-image:url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'300\'><filter id=\'n\'><feTurbulence type=\'fractalNoise\' baseFrequency=\'0.8\' numOctaves=\'5\'/></filter><rect width=\'100%\' height=\'100%\' filter=\'url(%23n)\'/></svg>');"
     />
 
     <div
