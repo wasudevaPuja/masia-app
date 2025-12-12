@@ -76,7 +76,7 @@
         </p>
 
         <a
-          href="https://wa.me/628213613126?text=Hello%20Advance%20Trading%20Technology"
+          href="https://wa.me/628213613222?text=Hello%Masia%Trade"
           target="_blank"
           class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-full transition shadow-lg shadow-green-900/20"
         >
