@@ -3,13 +3,11 @@
     id="hero"
     class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0B1E35]"
   >
-    <!-- BASE GRADIENT (lebih kuat dan kontras) -->
     <div
       class="absolute inset-0
          bg-[linear-gradient(140deg,#071629_0%,#0B1E35_40%,#0E2348_70%,#103A70_100%)]"
     />
 
-    <!-- STRONG CENTER GLOW (lebih jelas, tidak terlalu blur) -->
     <div
       class="absolute top-[35%] left-1/2 -translate-x-1/2
          w-[900px] h-[900px]
@@ -17,7 +15,6 @@
          blur-[90px] opacity-70 pointer-events-none"
     />
 
-    <!-- BOTTOM ELECTRIC-BLUE GRADIENT -->
     <div
       class="absolute bottom-[-120px] left-1/2 -translate-x-1/2
          w-[1400px] h-[600px]
@@ -25,13 +22,11 @@
          blur-[160px] opacity-80"
     />
 
-    <!-- DARK VIGNETTE (supaya tepi gelap, tengah terang) -->
     <div
       class="absolute inset-0
          bg-[radial-gradient(circle,transparent_55%,rgba(0,0,0,0.55)_100%)]"
     />
 
-    <!-- NOISE TEXTURE -->
     <div
       class="absolute inset-0 opacity-[0.07] pointer-events-none"
       style="background-image:url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'300\'><filter id=\'n\'><feTurbulence type=\'fractalNoise\' baseFrequency=\'0.8\' numOctaves=\'5\'/></filter><rect width=\'100%\' height=\'100%\' filter=\'url(%23n)\'/></svg>');"

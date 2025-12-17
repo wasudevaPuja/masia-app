@@ -1,8 +1,8 @@
 <!-- inget tambahin og:title dan semuanya -->
 <script lang="ts" setup>
 useSeoMeta({
-  title: 'Masia Trade SDN | Trade, Strategy, Partnership, Elevated',
-  description: 'Masia Trade SDN We help businesses move smarter—not just further. Connecting opportunities, enhancing trading performance, and delivering long-term strategic clarity'
+  title: 'MASIA GLOBAL TRADE SDN. BHD. | Trade, Strategy, Partnership, Elevated',
+  description: 'MASIA GLOBAL TRADE SDN. BHD. We help businesses move smarter—not just further. Connecting opportunities, enhancing trading performance, and delivering long-term strategic clarity'
 })
 </script>
 
@@ -10,9 +10,9 @@ useSeoMeta({
   <div>
     <Hero />
     <About />
-    <Vision />
     <Service />
     <Choose />
+    <Partners />
     <Contact />
   </div>
 </template>

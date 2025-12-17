@@ -12,7 +12,7 @@
         to="/"
         class="text-white text-xl font-semibold tracking-wide"
       >
-        MASIA TRADE
+        MASIA TRADE SDN. BHD.
       </NuxtLink>
 
       <ul class="hidden md:flex items-center gap-8 font-medium">
@@ -85,6 +85,7 @@ const menu = [
   { id: 'about', label: 'About' },
   { id: 'services', label: 'Services' },
   { id: 'why', label: 'Why Us' },
+  { id: 'partners', label: 'Our Partners' },
   { id: 'contact', label: 'Contact' }
 ]
 

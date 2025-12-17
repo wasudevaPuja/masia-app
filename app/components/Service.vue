@@ -15,18 +15,20 @@
         Our Services
       </h2>
 
-      <p class="text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-12">
-        Delivering pragmatic trading and advisory solutions with efficiency, clarity,
-        and consistent excellence.
+      <p
+        class="text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-12"
+        data-aos="fade-up"
+      >
+        Strategic Trade & Distribution
       </p>
 
-      <div class="w-24 h-[3px] bg-blue-400/40 mx-auto rounded mb-12" />
+      <div class="w-24 h-[3px] bg-blue-400/40 mx-auto rounded mb-16" />
 
       <div class="grid md:grid-cols-2 gap-10 text-left">
         <div
           v-for="(service, i) in services"
           :key="service.title"
-          class="p-8 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-xl text-left
+          class="p-8 bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl shadow-xl
                  hover:border-blue-300/40 hover:-translate-y-1 transition-all duration-300"
           data-aos="fade-up"
           :data-aos-delay="i * 120"
@@ -41,11 +43,11 @@
             </h3>
           </div>
 
-          <p class="text-gray-300 text-sm md:text-base leading-relaxed mb-4">
+          <p class="text-gray-300 text-base leading-relaxed mb-5">
             {{ service.intro }}
           </p>
 
-          <ul class="text-sm md:text-base text-gray-300 space-y-1.5">
+          <ul class="space-y-2 text-gray-200 text-sm md:text-base">
             <li
               v-for="(item, idx) in service.points"
               :key="idx"
@@ -62,27 +64,27 @@
 <script setup>
 const services = [
   {
-    title: 'General Goods Trading – Export & Import',
-    icon: 'mdi:swap-horizontal-circle-outline',
+    title: 'Trade Execution & Sourcing',
+    icon: 'mdi:swap-horizontal',
     intro:
-      'We specialize in trading activities across various sectors with strong networks, structured processes, and robust compliance.',
+      'We support international trade execution through structured export–import activities and client-driven sourcing across multi-category general goods.',
     points: [
-      'Cross-border trading of selected general goods.',
-      'Support for sourcing, negotiation, and coordination.',
-      'Supply chain visibility and documentation support.',
-      'Practical, execution-focused trading management.'
+      'Cross-border export and import of general goods',
+      'Client-driven sourcing based on commercial requirements',
+      'Supplier identification, due diligence, and coordination',
+      'Fee-based or contract-based trading arrangements'
     ]
   },
   {
-    title: 'Retail of Non-Specialized Goods',
-    icon: 'mdi:storefront-outline',
+    title: 'Distribution & Trade Support',
+    icon: 'mdi:truck-delivery-outline',
     intro:
-      'Providing access to diverse product categories and distribution support to meet evolving market needs.',
+      'We provide structured distribution and trade support services to ensure smooth delivery, regulatory alignment, and administrative efficiency.',
     points: [
-      'Mix of products across multiple category groups.',
-      'Support for both wholesale and retail environments.',
-      'Reliable coordination between suppliers and buyers.',
-      'Flexible structures tailored to client operations.'
+      'Trade documentation and regulatory coordination',
+      'Administrative and transactional support',
+      'Structured distribution aligned with transaction needs',
+      'Domestic and international delivery coordination'
     ]
   }
 ]

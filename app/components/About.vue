@@ -19,27 +19,28 @@
 
         <div class="space-y-6 text-lg leading-relaxed text-gray-300">
           <p>
-            MASIA TRADE SDN. BHD. was established with a clear purpose—to provide
-            dependable trading services and meaningful business advisory for
-            companies navigating fast-moving industries.
+            Masia Global Trade Sdn. Bhd. was established with a clear mandate—to support
+            businesses in navigating international trade and commercial complexity with
+            clarity, structure, and confidence.
           </p>
 
           <p>
-            We operate with a simple philosophy:
-            <span class="text-white font-semibold">integrity first, results always.</span>
-            Our team brings diverse experience, practical insight, and a disciplined
-            approach that helps businesses make smarter decisions, reduce uncertainty,
-            and discover new opportunities.
+            We operate with a disciplined, results-oriented philosophy anchored in
+            <span class="text-white font-semibold">integrity and accountability.</span>
+            Our team combines cross-border experience, practical commercial insight,
+            and structured execution to help clients optimise trade flows, reduce
+            operational uncertainty, and respond effectively to evolving market conditions.
           </p>
 
           <p>
-            Through strong networks, structured processes, and an unwavering commitment
-            to excellence, we support companies in achieving measurable and sustainable
-            growth.
+            Through strong global networks, clearly defined processes, and a commitment
+            to professional standards, we support companies in achieving measurable,
+            sustainable outcomes across international and domestic operations.
           </p>
 
           <p class="text-gray-100 font-semibold text-lg pt-2">
-            At MASIA TRADE SDN. BHD., excellence isn’t a goal—it's our signature.
+            At Masia Global Trade Sdn. Bhd., excellence is not aspirational—it is embedded
+            in how we operate.
           </p>
         </div>
       </div>

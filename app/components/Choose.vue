@@ -15,7 +15,10 @@
         Why Work With Us
       </h2>
 
-      <p class="text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-12">
+      <p
+        class="text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-12"
+        data-aos="fade-up"
+      >
         Choosing MASIA TRADE SDN. BHD. means partnering with a team that values
         precision, trust, and measurable impact in every decision.
       </p>
@@ -52,40 +55,40 @@
 <script setup>
 const whyUs = [
   {
-    title: 'Strong Market Understanding',
-    icon: 'mdi:chart-line',
+    title: 'Global Market Acumen',
+    icon: 'mdi:earth',
     desc:
-      'Deep insights into local and global markets that help businesses navigate complex trading conditions confidently.'
+      'Strong, data-driven understanding of international trade dynamics and market positioning.'
   },
   {
-    title: 'Fully Licensed & Compliant',
-    icon: 'mdi:shield-check-outline',
+    title: 'Regulatory Assurance',
+    icon: 'mdi:shield-check',
     desc:
-      'Operations aligned with regulatory standards, ensuring transparent, reliable, and long-term compliant relationships.'
+      'Fully licensed and compliant across all operational and financial jurisdictions.'
   },
   {
-    title: 'Tailored Strategies',
-    icon: 'mdi:lightbulb-on-outline',
+    title: 'Integrated Expertise',
+    icon: 'mdi:puzzle-outline',
     desc:
-      'Custom solutions designed around each client’s objectives, enabling purposeful, strategic, and measurable outcomes.'
+      'Seamless integration of strategic advisory, trading, and execution capabilities.'
   },
   {
-    title: 'Dual Expertise',
-    icon: 'mdi:briefcase-variant-outline',
+    title: 'Ethical Governance',
+    icon: 'mdi:account-tie',
     desc:
-      'Combined strengths in trading and business advisory for more informed, practical, and effective decision-making.'
+      'Transparent, ethical, and professional conduct in every engagement.'
   },
   {
-    title: 'Transparent & Ethical Approach',
-    icon: 'mdi:scale-balance',
+    title: 'Extensive Industry Network',
+    icon: 'mdi:hub-outline',
     desc:
-      'We operate with honesty, clarity, and discipline—ensuring every engagement is built on trust and accountability.'
+      'Reliable sourcing and distribution supported by strong global connections.'
   },
   {
-    title: 'Extensive Industry Connections',
-    icon: 'mdi:network-outline',
+    title: 'Operational Excellence',
+    icon: 'mdi:cogs',
     desc:
-      'Strong networks across multiple sectors, creating access to opportunities, partnerships, and growth possibilities.'
+      'Consistent delivery, high standards, and dependable execution.'
   }
 ]
 </script>

@@ -1,38 +1,35 @@
 <template>
-  <footer class="relative bg-[#0B1E35] text-gray-300 pt-20 pb-12 border-t border-white/10 overflow-hidden">
+  <footer class="relative bg-[#0B1E35] text-gray-300 border-t border-white/10 overflow-hidden">
     <div class="absolute inset-0 pointer-events-none">
       <div class="absolute right-0 top-0 w-[380px] h-[380px] bg-blue-500/10 rounded-full blur-3xl" />
       <div class="absolute left-0 bottom-0 w-[260px] h-[260px] bg-blue-400/10 rounded-full blur-3xl" />
     </div>
 
-    <div class="relative max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-14">
-      <div>
-        <h3 class="text-white text-2xl font-semibold tracking-wide mb-4">
-          MASIA TRADE SDN. BHD.
-        </h3>
-
-        <p class="text-gray-400 text-sm leading-relaxed">
-          15-13A, Wisma UOA 2, Jalan Pinang,<br>
-          50450 Kuala Lumpur, W.P. Kuala Lumpur, Malaysia
-        </p>
-
-        <p class="mt-4 text-sm">
-          <span class="text-white font-medium">Email:</span>
-          <a
-            href="mailto:finance@masiaglobal.asia"
-            class="text-gray-300 hover:text-blue-300 transition underline underline-offset-2"
+    <div class="relative max-w-7xl mx-auto px-6 py-20 grid gap-14 sm:grid-cols-2 md:grid-cols-4">
+      <div class="flex flex-col items-center text-center">
+        <!-- Logo container -->
+        <div
+          class="w-28 h-28 rounded-full bg-white
+           shadow-xl flex items-center justify-center mb-6"
+        >
+          <img
+            src="/img/logo.png"
+            alt="Masia Trade Logo"
+            class="w-full h-full object-contain p-3"
           >
-            finance@masiaglobal.asia
-          </a>
+        </div>
+
+        <p class="text-gray-400 text-sm leading-relaxed max-w-xs">
+          We help businesses move smarter—not just further.
         </p>
       </div>
 
       <div>
-        <h3 class="text-white text-lg font-semibold mb-4">
+        <h4 class="text-white font-semibold mb-5">
           Quick Links
-        </h3>
+        </h4>
 
-        <ul class="space-y-2 text-sm">
+        <ul class="space-y-3 text-sm">
           <li>
             <span
               class="cursor-pointer hover:text-blue-300 transition"
@@ -60,6 +57,12 @@
           <li>
             <span
               class="cursor-pointer hover:text-blue-300 transition"
+              @click="scrollTo('partners')"
+            >Our Partners</span>
+          </li>
+          <li>
+            <span
+              class="cursor-pointer hover:text-blue-300 transition"
               @click="scrollTo('contact')"
             >Contact</span>
           </li>
@@ -67,76 +70,47 @@
       </div>
 
       <div>
-        <h4 class="text-white text-lg font-semibold mb-4">
-          Contact Us
+        <h4 class="text-white font-semibold mb-5">
+          Company Info
         </h4>
 
-        <p class="text-gray-400 text-sm leading-relaxed mb-4">
-          Reach us instantly via WhatsApp.
+        <p class="text-gray-400 text-sm leading-relaxed text-justify">
+          <span class="text-white font-medium">MASIA TRADE SDN. BHD.</span><br>
+          15-13A, Wisma UOA 2,<br>
+          Jalan Pinang,<br>
+          50450 Kuala Lumpur,<br>
+          W.P. Kuala Lumpur, Malaysia
         </p>
 
-        <a
-          href="https://wa.me/628213613222?text=Hello%Masia%Trade"
-          target="_blank"
-          class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-5 py-3 rounded-full transition shadow-lg shadow-green-900/20"
-        >
-          <UIcon
-            name="mdi:whatsapp"
-            class="w-5 h-5"
-          />
-          <span class="font-medium">WhatsApp Us</span>
-        </a>
+        <p class="mt-4 text-xs text-gray-500">
+          Registered in Malaysia
+        </p>
+      </div>
 
-        <div class="flex items-center gap-4 mt-6">
-          <a
-            href="#"
-            class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center
-       text-gray-300 hover:bg-pink-500 hover:text-white transition shadow-sm"
-          >
-            <UIcon
-              name="mdi:instagram"
-              class="w-6 h-6"
-            />
-          </a>
+      <div>
+        <h4 class="text-white font-semibold mb-5">
+          Contact
+        </h4>
 
+        <p class="text-sm mb-4">
+          <span class="text-white font-medium">Email:</span><br>
           <a
-            href="#"
-            class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center
-       text-gray-300 hover:bg-blue-600 hover:text-white transition shadow-sm"
+            href="mailto:finance@masiaglobal.asia"
+            class="text-gray-300 hover:text-blue-300 underline underline-offset-2 transition"
           >
-            <UIcon
-              name="mdi:facebook"
-              class="w-6 h-6"
-            />
+            finance@masiaglobal.asia
           </a>
+        </p>
 
-          <a
-            href="#"
-            class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center
-       text-gray-300 hover:bg-red-600 hover:text-white transition shadow-sm"
-          >
-            <UIcon
-              name="mdi:youtube"
-              class="w-6 h-6"
-            />
-          </a>
-
-          <a
-            href="#"
-            class="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center
-       text-gray-300 hover:bg-sky-500 hover:text-white transition shadow-sm"
-          >
-            <UIcon
-              name="mdi:telegram"
-              class="w-6 h-6"
-            />
-          </a>
-        </div>
+        <p class="text-sm mb-4">
+          <span class="text-white font-medium">Phone:</span><br>
+          +60 19-586 38773
+        </p>
       </div>
     </div>
 
-    <div class="relative mt-12 text-center text-gray-500 text-sm border-t border-white/10 pt-6">
-      © 2025 MASIA TRADE SDN. BHD. All rights reserved.
+    <div class="relative text-center text-white text-sm border-t border-white/10 py-6">
+      Copyright © 2025 Masia Global Trade Sdn. Bhd [202401048370 (1594215-T)] All rights reserved.
     </div>
   </footer>
 </template>
