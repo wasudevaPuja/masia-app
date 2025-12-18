@@ -7,14 +7,13 @@
 
     <div class="relative max-w-7xl mx-auto px-6 py-20 grid gap-14 sm:grid-cols-2 md:grid-cols-4">
       <div class="flex flex-col items-center text-center">
-        <!-- Logo container -->
         <div
           class="w-28 h-28 rounded-full bg-white
            shadow-xl flex items-center justify-center mb-6"
         >
           <img
             src="/img/logo.png"
-            alt="Masia Trade Logo"
+            alt="Masia Global Trade Logo"
             class="w-full h-full object-contain p-3"
           >
         </div>
@@ -75,7 +74,7 @@
         </h4>
 
         <p class="text-gray-400 text-sm leading-relaxed text-justify">
-          <span class="text-white font-medium">MASIA TRADE SDN. BHD.</span><br>
+          <span class="text-white font-medium">MASIA GLOBAL TRADE SDN. BHD.</span><br>
           15-13A, Wisma UOA 2,<br>
           Jalan Pinang,<br>
           50450 Kuala Lumpur,<br>
@@ -110,7 +109,7 @@
     </div>
 
     <div class="relative text-center text-white text-sm border-t border-white/10 py-6">
-      Copyright © 2025 Masia Global Trade Sdn. Bhd [202401048370 (1594215-T)] All rights reserved.
+      Copyright © 2025 Masia Global Trade SDN. BHD. [202401048370 (1594215-T)] All rights reserved.
     </div>
   </footer>
 </template>

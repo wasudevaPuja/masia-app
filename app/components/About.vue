@@ -19,7 +19,7 @@
 
         <div class="space-y-6 text-lg leading-relaxed text-gray-300">
           <p>
-            Masia Global Trade Sdn. Bhd. was established with a clear mandate—to support
+            Masia Global Trade SDN. BHD. was established with a clear mandate—to support
             businesses in navigating international trade and commercial complexity with
             clarity, structure, and confidence.
           </p>
@@ -39,7 +39,7 @@
           </p>
 
           <p class="text-gray-100 font-semibold text-lg pt-2">
-            At Masia Global Trade Sdn. Bhd., excellence is not aspirational—it is embedded
+            At Masia Global Trade SDN. BHD., excellence is not aspirational—it is embedded
             in how we operate.
           </p>
         </div>

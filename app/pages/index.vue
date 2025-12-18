@@ -2,7 +2,22 @@
 <script lang="ts" setup>
 useSeoMeta({
   title: 'MASIA GLOBAL TRADE SDN. BHD. | Trade, Strategy, Partnership, Elevated',
-  description: 'MASIA GLOBAL TRADE SDN. BHD. We help businesses move smarter—not just further. Connecting opportunities, enhancing trading performance, and delivering long-term strategic clarity'
+  description:
+    'MASIA GLOBAL TRADE SDN. BHD. We help businesses move smarter—not just further. Connecting opportunities, enhancing trading performance, and delivering long-term strategic clarity',
+  ogTitle: 'MASIA GLOBAL TRADE SDN. BHD. | Trade, Strategy, Partnership, Elevated',
+  ogDescription:
+    'We help businesses move smarter—not just further. Connecting opportunities, enhancing trading performance, and delivering long-term strategic clarity',
+  ogType: 'website',
+  ogUrl: 'https://masiaglobal.asia',
+  ogImage: 'https://masiaglobal.asia/img/logo.png',
+  ogSiteName: 'MASIA GLOBAL TRADE SDN. BHD.',
+  ogImageHeight: 400,
+  ogImageWidth: 400,
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'MASIA GLOBAL TRADE SDN. BHD.',
+  twitterDescription:
+    'Trade, Strategy, Partnership, Elevated',
+  twitterImage: 'https://masiaglobal.asia/img/logo.png'
 })
 </script>
 

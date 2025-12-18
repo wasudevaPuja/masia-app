@@ -12,7 +12,7 @@
         to="/"
         class="text-white text-xl font-semibold tracking-wide"
       >
-        MASIA TRADE SDN. BHD.
+        MASIA GLOBAL TRADE SDN. BHD.
       </NuxtLink>
 
       <ul class="hidden md:flex items-center gap-8 font-medium">

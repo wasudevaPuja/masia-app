@@ -19,7 +19,7 @@
         class="text-gray-300 text-sm md:text-base max-w-2xl mx-auto mb-12"
         data-aos="fade-up"
       >
-        Choosing MASIA TRADE SDN. BHD. means partnering with a team that values
+        Choosing MASIA GLOBAL TRADE SDN. BHD. means partnering with a team that values
         precision, trust, and measurable impact in every decision.
       </p>
 
