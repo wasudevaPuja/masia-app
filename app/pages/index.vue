@@ -1,4 +1,3 @@
-<!-- inget tambahin og:title dan semuanya -->
 <script lang="ts" setup>
 useSeoMeta({
   title: 'MASIA GLOBAL TRADE SDN. BHD. | Trade, Strategy, Partnership, Elevated',
@@ -11,8 +10,8 @@ useSeoMeta({
   ogUrl: 'https://masiaglobal.asia',
   ogImage: 'https://masiaglobal.asia/img/logo.png',
   ogSiteName: 'MASIA GLOBAL TRADE SDN. BHD.',
-  ogImageHeight: 400,
-  ogImageWidth: 400,
+  ogImageHeight: 630,
+  ogImageWidth: 1200,
   twitterCard: 'summary_large_image',
   twitterTitle: 'MASIA GLOBAL TRADE SDN. BHD.',
   twitterDescription:

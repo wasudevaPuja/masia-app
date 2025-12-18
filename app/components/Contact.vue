@@ -29,10 +29,10 @@
 
           <li>
             <a
-              href="mailto:finance@masiaglobal.asia"
+              href="mailto:office.masiaglobal@gmail.com"
               class="hover:text-blue-300 transition underline underline-offset-2"
             >
-              ✉️ finance@masiaglobal.asia
+              ✉️ office.masiaglobal@gmail.com
             </a>
           </li>
           <li>
