@@ -14,6 +14,12 @@ useHead({
       `,
       type: 'text/javascript'
     }
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://www.masiaglobal.asia'
+    }
   ]
 })
 </script>
