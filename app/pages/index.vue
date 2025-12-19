@@ -8,7 +8,7 @@ useSeoMeta({
     'We help businesses move smarter—not just further. Connecting opportunities, enhancing trading performance, and delivering long-term strategic clarity',
   ogType: 'website',
   ogUrl: 'https://masiaglobal.asia',
-  ogImage: 'https://masiaglobal.asia/img/logo.png',
+  ogImage: 'https://masiaglobal.asia/img/logo-v2.png',
   ogSiteName: 'MASIA GLOBAL TRADE SDN. BHD.',
   ogImageHeight: 630,
   ogImageWidth: 1200,
@@ -16,7 +16,7 @@ useSeoMeta({
   twitterTitle: 'MASIA GLOBAL TRADE SDN. BHD.',
   twitterDescription:
     'Trade, Strategy, Partnership, Elevated',
-  twitterImage: 'https://masiaglobal.asia/img/logo.png'
+  twitterImage: 'https://masiaglobal.asia/img/logo-v2.png'
 })
 </script>
 

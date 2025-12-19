@@ -12,7 +12,7 @@
            shadow-xl flex items-center justify-center mb-6"
         >
           <img
-            src="/img/logo.png"
+            src="/img/logo-v2.png"
             alt="Masia Global Trade Logo"
             class="w-full h-full object-contain p-3"
           >
