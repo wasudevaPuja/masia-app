@@ -1,27 +1,60 @@
 <script setup lang="ts">
-useHead({
-  script: [
-    {
-      src: 'https://www.googletagmanager.com/gtag/js?id=G-NJ7LBE7BEM',
-      async: true
-    },
-    {
-      innerHTML: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-NJ7LBE7BEM');
-      `,
-      type: 'text/javascript'
+const PROD_DOMAINS = [
+  'masiaglobal.asia',
+  'www.masiaglobal.asia'
+]
+
+const isProdDomain
+  = typeof window !== 'undefined'
+    && PROD_DOMAINS.includes(window.location.hostname)
+
+useHead(() => {
+  // jangan inject apa pun kalau bukan prod domain
+  if (!import.meta.env.PROD || !isProdDomain) {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://www.masiaglobal.asia'
+        },
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon-v2.ico'
+        }
+      ]
     }
-  ],
-  link: [
-    {
-      rel: 'canonical',
-      href: 'https://www.masiaglobal.asia'
-    },
-    { rel: 'icon', type: 'image/x-icon', href: '/favicon-v2.ico' }
-  ]
+  }
+
+  // hanya jalan di masiaglobal.asia
+  return {
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-NJ7LBE7BEM',
+        async: true
+      },
+      {
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-NJ7LBE7BEM');
+        `,
+        type: 'text/javascript'
+      }
+    ],
+    link: [
+      {
+        rel: 'canonical',
+        href: 'https://www.masiaglobal.asia'
+      },
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon-v2.ico'
+      }
+    ]
+  }
 })
 </script>
 
