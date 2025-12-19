@@ -19,7 +19,8 @@ useHead({
     {
       rel: 'canonical',
       href: 'https://www.masiaglobal.asia'
-    }
+    },
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon-v2.ico' }
   ]
 })
 </script>
